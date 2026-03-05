@@ -52,7 +52,7 @@ The full analysis, decisions, and narrative can be found in the notebook. The ma
 
 **LDA outperforms the Decision Tree on the minority class.** The optimized LDA achieved a Recall of 0.667 and AUC of 0.80 on the test set. The pruned Decision Tree, despite better interpretability, achieved a Recall of only 0.17 for High Risk countries — catching just 1 of 6 critical cases. With `max_depth=3`, the tree's simplicity came at the cost of sensitivity to the minority class.
 
-**The Decision Tree's logic is highly interpretable.** The tree visualization reveals a coherent three-level rule: development level (Infant Mortality) → geographic region (Longitude) → secondary socioeconomic signal. One pure leaf node (`[0, 11]`) perfectly captures 11 High Risk countries with zero errors — a strong, clean signal that is easy to communicate to non-technical stakeholders.
+**The Decision Tree's logic is highly interpretable.** The tree visualization reveals a coherent three-level rule: development level (Infant Mortality) → geographic region (Longitude) → secondary socioeconomic signal. One pure leaf node perfectly captures 11 High Risk countries with zero errors — a strong, clean signal that is easy to communicate to non-technical stakeholders.
 
 **For ecological monitoring, LDA is the safer choice.** A missed high-risk deforestation country (False Negative) carries a far higher cost than a false alarm. LDA's higher recall makes it the more responsible operational model for this domain, despite the Decision Tree's interpretability advantage.
 
@@ -60,8 +60,9 @@ The full analysis, decisions, and narrative can be found in the notebook. The ma
 
 ### 📁 Project Files
 
-- `LDA&DecisionTrees.ipynb`: The full analysis — LDA pipeline, Decision Tree baseline, tuning, tree visualization, and comparative findings.
-- `classified_deforestation_df.csv`: The dataset inherited from the previous project phase, cleaned and ready for modeling.
+- [LDA&DecisionTrees.ipynb](./LDA&DecisionTrees.ipynb): The full analysis — LDA, Decision Tree baseline, tuning, tree visualization, and comparative findings.
+- [LDA&DecisionTree.html](./LDA&DecisionTree.html): The html readable version of the notebook.
+- [classified_deforestation_df.csv](./classified_deforestation_df.csv): The dataset inherited from the previous project phase, cleaned and ready for modeling.
 
 ---
 
