@@ -61,7 +61,7 @@ The full analysis, decisions, and narrative can be found in the notebook. The ma
 ### 📁 Project Files
 
 - [LDA&DecisionTrees.ipynb](./LDA&DecisionTrees.ipynb): The full analysis — LDA, Decision Tree baseline, tuning, tree visualization, and comparative findings.
-- [LDA&DecisionTree.html](./LDA&DecisionTree.html): The html readable version of the notebook.
+- [LDA&DecisionTrees.html](./LDA&DecisionTrees.html): The html readable version of the notebook.
 - [classified_deforestation_df.csv](./classified_deforestation_df.csv): The dataset inherited from the previous project phase, cleaned and ready for modeling.
 
 ---
