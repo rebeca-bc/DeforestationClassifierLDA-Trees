@@ -5,7 +5,7 @@
 
 ### 📖 Purpose of Study
 
-Can socioeconomic and demographic data alone identify which countries are actively destroying their forests — and do two fundamentally different algorithms agree on *why*?
+Can socioeconomic and demographic data alone identify which countries are actively destroying their forests, and do two fundamentally different algorithms agree on *why*?
 
 This project is the third phase of an ongoing classification series. Building directly on the binary target variable and cleaned dataset established in the [Logistic Regression phase](https://rebeca-bc.github.io/DeforestationLogisticClassifier/), the focus here shifts to comparing two structurally different classifiers: **Linear Discriminant Analysis (LDA)** and a **Decision Tree**. The central question is not just which model performs better, but whether both independently converge on the same ecological story — and what that convergence means.
 
